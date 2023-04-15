@@ -1,2 +1,1 @@
-# Twitter-Sentiment-Analysis-Kuval-Garg
-DA Project Semester 5
+# Twitter Sentiment Analysis of the Citizenship Amendment Act
