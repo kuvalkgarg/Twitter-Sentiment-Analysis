@@ -46,5 +46,15 @@ To use the project, follow these steps:
 6. Run each cell in the notebook sequentially to perform data preprocessing, training the random forest classifier, and analyzing the results.
 7. Modify the notebook code to use your own dataset or make customizations as needed.
 
+# Snapshots
+## Sample Wordcloud Generated
+![Image of a wordcloud generated for the tweets](wordcloud.png)
+
+## Tokenised Predictions
+![Image of the tokenised results which have been labelled](tokenised_predictions.png)
+
+## Performance of the Model
+![Image of the metrics of the random forest model's performance](metrics.png)
+
 # Conclusion
 This project provides a convenient way to collect and create a dataset of tweets using the Twitter API. By specifying keywords, time ranges, and other parameters, you can easily retrieve relevant tweet data and store it in a CSV file. The collected dataset can be used for various data analysis tasks or as training data for machine learning models. The random forest sentiment analysis project provides a way to classify tweets into pro CAA and against CAA categories. By utilizing a random forest algorithm and performing preprocessing techniques such as tokenization, stemming, and stopwords removal, the model can effectively analyze sentiment in tweets. The project's code and analysis can serve as a starting point for further research and development in sentiment analysis and text classification tasks.
