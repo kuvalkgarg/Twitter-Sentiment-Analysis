@@ -1,7 +1,7 @@
 # Twitter Sentiment Analysis of the Citizenship Amendment Act
 This project focuses two aspects: 
-Creating a dataset by collecting tweets from the Twitter API. The code utilizes Python to interact with the API, retrieve tweet data based on specific keywords and time ranges, and store the data in a CSV file. The collected dataset can be used for various purposes, such as sentiment analysis or trend analysis.
-
+* Creating a dataset by collecting tweets from the Twitter API. The code utilizes Python to interact with the API, retrieve tweet data based on specific keywords and time ranges, and store the data in a CSV file. The collected dataset can be used for various purposes, such as sentiment analysis or trend analysis.
+* Sentiment analysis using a random forest algorithm. The goal is to classify tweets into two categories: pro CAA (Citizenship Amendment Act) and against CAA. The project utilizes a dataset of labeled tweets for training and testing the model. The sentiment analysis is performed by preprocessing the tweets, removing usernames, punctuation, numbers, and special characters. The tweets are tokenized, stemmed, and processed to remove stopwords. Finally, a random forest classifier is trained on the processed data to classify new tweets.
 
 # Languages and Frameworks/Libraries
 The project is implemented in Python, using the following frameworks/libraries:
@@ -13,6 +13,10 @@ The project is implemented in Python, using the following frameworks/libraries:
 * **datetime**
 * **dateutil.parser**
 * **unicodedata**
+* **seaborn**
+* **nltk**
+* **wordcloud**
+* **matplotlib**
 
 
 # Installation and Execution
@@ -38,7 +42,9 @@ To use the project, follow these steps:
 2. Once the code is executed, the dataset will be created and saved in the data.csv file.
 3. You can access the collected tweet data for further analysis or processing.
 4. The dataset can be loaded into various data analysis or machine learning frameworks for tasks such as sentiment analysis, classification, or trend analysis.
-
+5. Open the Jupyter Notebook **randomforest.ipynb**.
+6. Run each cell in the notebook sequentially to perform data preprocessing, training the random forest classifier, and analyzing the results.
+7. Modify the notebook code to use your own dataset or make customizations as needed.
 
 # Conclusion
-This project provides a convenient way to collect and create a dataset of tweets using the Twitter API. By specifying keywords, time ranges, and other parameters, you can easily retrieve relevant tweet data and store it in a CSV file. The collected dataset can be used for various data analysis tasks or as training data for machine learning models. 
+This project provides a convenient way to collect and create a dataset of tweets using the Twitter API. By specifying keywords, time ranges, and other parameters, you can easily retrieve relevant tweet data and store it in a CSV file. The collected dataset can be used for various data analysis tasks or as training data for machine learning models. The random forest sentiment analysis project provides a way to classify tweets into pro CAA and against CAA categories. By utilizing a random forest algorithm and performing preprocessing techniques such as tokenization, stemming, and stopwords removal, the model can effectively analyze sentiment in tweets. The project's code and analysis can serve as a starting point for further research and development in sentiment analysis and text classification tasks.
