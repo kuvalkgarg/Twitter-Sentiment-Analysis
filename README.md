@@ -1,5 +1,5 @@
 # Twitter Sentiment Analysis of the Citizenship Amendment Act
-This project focuses two aspects: 
+This project focuses on two aspects: 
 * Creating a dataset by collecting tweets from the Twitter API. The code utilizes Python to interact with the API, retrieve tweet data based on specific keywords and time ranges, and store the data in a CSV file. The collected dataset can be used for various purposes, such as sentiment analysis or trend analysis.
 * Sentiment analysis using a random forest algorithm. The goal is to classify tweets into two categories: pro CAA (Citizenship Amendment Act) and against CAA. The project utilizes a dataset of labeled tweets for training and testing the model. The sentiment analysis is performed by preprocessing the tweets, removing usernames, punctuation, numbers, and special characters. The tweets are tokenized, stemmed, and processed to remove stopwords. Finally, a random forest classifier is trained on the processed data to classify new tweets.
 
